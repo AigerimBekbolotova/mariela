@@ -109,7 +109,7 @@ nav, ul, a {
     color: #B99BB6;
 }
 
-.part2-text2 {
+.part2-text2, .part4-text4 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-size: 26px;
@@ -156,4 +156,23 @@ nav, ul, a {
     font-size: 17px;
     color: white;
     padding-left: 23px;
+}
+
+.part4 {
+    display: flex;
+}
+
+.part4-text {
+    width: 480px;
+    height: 120px;
+    margin:150px 140px 138px 100px;
+}
+
+.part4-text4 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.part4-img {
+    margin-top: 70px;
 }
