@@ -223,7 +223,25 @@ nav, ul, a {
 }
 
 .footer-1 {
-    height: 250px;
-    color:
-            #D6BBD3;
+    height: 235px;
+    background-color: #D6BBD3;
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 80px 10px 80px;
 }
+
+.footer1-1, .footer1-2, .footer1-3 {
+    text-align: center;
+}
+
+.footer-text, .footer-text2 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-text2 {
+    font-size: 17px;
+}
+
