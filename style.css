@@ -130,7 +130,7 @@ nav, ul, a {
     cursor: pointer;
 }
 
-.part3 {
+.part3, .part7-1-1, .part7-2-2 {
     display: flex;
     justify-content: space-around;
 }
@@ -139,7 +139,7 @@ nav, ul, a {
     background-color: #CEB3CB;
 }
 
-.p3 {
+.p3, .p4 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-size: 25px;
@@ -198,7 +198,32 @@ nav, ul, a {
     margin-left:93px;
 }
 
+.part6 {
+    border: none;
+}
+
 .part6-text {
     margin-right: 88px;
     margin-top: 70px;
+}
+.part7-1-1 {
+    margin-top: 70px;
+}
+
+.p4 {
+    text-align: center;
+    color: #5F4D5D;
+}
+.price {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #B0B0B0;
+    text-align: center;
+}
+
+.footer-1 {
+    height: 250px;
+    color:
+            #D6BBD3;
 }
