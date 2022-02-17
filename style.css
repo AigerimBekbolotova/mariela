@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto:wght@100&display=swap');
+
 body {
     margin: 0 auto;
     width: 1440px;
@@ -8,6 +9,7 @@ body {
     max-width: 1440px;
     max-height: 1440px;
 }
+/*******************************HEADER****************************/
 
 .navbar {
     border-bottom: 1px solid white;
@@ -17,8 +19,7 @@ body {
 
 .mariela {
     height: 63px;
-    margin-left: 113px;
-    margin-right: 410px;
+    margin: 30px 450px 0 113px;
 }
 
 nav, ul, a {
@@ -30,14 +31,14 @@ nav, ul, a {
     align-items: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
-    line-height: 30px;
     color: #B08EAD;
 }
 
 .telejka {
     height: 20px;
-    margin-right: 140px;
+    margin-left: 40px;
 }
+/**********************   MAIN PART  **********************/
 
 .main-part {
     height: 817px;
@@ -71,6 +72,7 @@ nav, ul, a {
     padding-left: 40px;
     padding-top: 124px;
 }
+
 .p1,.p2 {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -91,12 +93,14 @@ nav, ul, a {
     border-bottom: 1px solid white;
     color: white;
     background: none;
-    padding: 6px 0px;
+    padding: 6px 0;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
 }
+
+/****************************** PART2 *************************/
 
 .part2-text {
     text-align: center;
@@ -137,6 +141,8 @@ nav, ul, a {
     color: white;
 }
 
+/********************************** PART3 ****************************/
+
 .part3, .part7-1-1, .part7-2-2 {
     display: flex;
     justify-content: space-around;
@@ -165,6 +171,8 @@ nav, ul, a {
     padding-left: 23px;
     margin-bottom: 24px;
 }
+
+/********************************** PART4 ***************************/
 
 .part4, .part5, .part6 {
     display: flex;
@@ -195,6 +203,8 @@ nav, ul, a {
     margin-top: 70px;
 }
 
+/******************************** PART5 *****************************/
+
 .part5, .part6 {
     padding-top: 40px;
 }
@@ -208,6 +218,8 @@ nav, ul, a {
     margin-left:93px;
 }
 
+/******************************** PART6 *****************************/
+
 .part6 {
     border: none;
 }
@@ -217,6 +229,8 @@ nav, ul, a {
     margin-top: 70px;
 }
 
+
+/******************************** PART7 *****************************/
 .part7-1-1{
     margin-top: 50px;
 }
@@ -240,6 +254,8 @@ nav, ul, a {
     text-align: center;
     margin-top: 2px;
 }
+
+/******************************** FOOTER *****************************/
 
 .footer-1 {
     height: 160px;
