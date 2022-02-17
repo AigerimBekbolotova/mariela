@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto:wght@100&display=swap');
 body {
-    margin: 0;
+    margin: 0 auto;
     width: 1440px;
 }
 
@@ -26,7 +26,6 @@ nav, ul, a {
     display: flex;
     list-style: none;
     text-decoration: none;
-    color: black;
     padding-right: 40px;
     align-items: center;
     font-family: 'Cormorant Garamond', serif;
@@ -64,15 +63,15 @@ nav, ul, a {
 
 .part1-text {
     width: 390px;
-    height: 350px;
+    height: 330px;
     background-color: #B08EAD;
     position: absolute;
-    top: 170px;
+    top: 182px;
     right: 113px;
     padding-left: 40px;
     padding-top: 124px;
 }
-.p1, p2 {
+.p1,.p2 {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -92,20 +91,23 @@ nav, ul, a {
     border-bottom: 1px solid white;
     color: white;
     background: none;
-    padding: 10px;
-    font-size: 14px;
+    padding: 6px 0px;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .part2-text {
     text-align: center;
     width: 746px;
-    padding: 75px 346px 50px 346px;
+    padding: 50px 346px 50px 346px;
 }
 
 .p2 {
     color: #B99BB6;
+    margin-top: 25px;
+    text-transform: uppercase;
 }
 
 .part2-text2, .part4-text4 {
@@ -130,9 +132,16 @@ nav, ul, a {
     cursor: pointer;
 }
 
+.btn2:hover {
+    background-color: #B99BB6;
+    color: white;
+}
+
 .part3, .part7-1-1, .part7-2-2 {
     display: flex;
     justify-content: space-around;
+    padding-right: 120px;
+    padding-left: 120px;
 }
 
 .part3-1, .part3-2, .part3-3 {
@@ -145,8 +154,8 @@ nav, ul, a {
     font-size: 25px;
     color: white;
     padding-left: 23px;
+    margin-bottom: 10px;
 }
-
 
 .learn-more{
     font-family: 'Cormorant Garamond', serif;
@@ -154,6 +163,7 @@ nav, ul, a {
     font-size: 17px;
     color: white;
     padding-left: 23px;
+    margin-bottom: 24px;
 }
 
 .part4, .part5, .part6 {
@@ -170,7 +180,7 @@ nav, ul, a {
 .part4-text, .part5-text, .part6-text {
     width: 480px;
     height: 120px;
-    margin:130px 140px 138px 100px;
+    margin: 130px 66px 0 160px;
 }
 
 .part4-text4 {
@@ -190,7 +200,7 @@ nav, ul, a {
 }
 
 .part5-img {
-    margin-left: 144px;
+    margin-left: 140px;
 }
 
 .part5-text {
@@ -206,28 +216,38 @@ nav, ul, a {
     margin-right: 88px;
     margin-top: 70px;
 }
-.part7-1-1 {
-    margin-top: 70px;
+
+.part7-1-1{
+    margin-top: 50px;
+}
+
+.part7-2-2 {
+    margin-top: 30px;
 }
 
 .p4 {
     text-align: center;
     color: #5F4D5D;
+    margin-top: 0;
+    margin-bottom: 2px;
 }
+
 .price {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #B0B0B0;
     text-align: center;
+    margin-top: 2px;
 }
 
 .footer-1 {
-    height: 235px;
+    height: 160px;
     background-color: #D6BBD3;
     display: flex;
     justify-content: space-around;
-    padding: 45px 80px 10px 80px;
+    padding: 45px 200px 10px 200px;
+    margin-top: 50px;
 }
 
 .footer1-1, .footer1-2, .footer1-3 {
@@ -237,11 +257,33 @@ nav, ul, a {
 .footer-text, .footer-text2 {
     color: white;
     text-align: center;
-    font-size: 22px;
-    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+    margin-top: 0;
 }
 
 .footer-text2 {
-    font-size: 17px;
+    font-size: 21px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
+.footer2 {
+    display: flex;
+    background-color: #C9ADC6;
+    height: 132px;
+}
+
+.footer2 a {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.footer2 img {
+    margin-left: 435px;
+    margin-right: 80px;
+    height: 53px;
+
+}
